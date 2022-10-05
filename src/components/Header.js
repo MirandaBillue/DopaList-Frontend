@@ -1,17 +1,50 @@
-import React from 'react';
+import { login, logout } from "../services/firebase";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Header() {
+function Header(props) {
   return (
+      <Navbar expand="lg" variant="dark" bg="dark">
+        <Container>
+      <Navbar.Brand href="/">DopaList</Navbar.Brand> 
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        {
+          props.user ?
+            <>
+            <div style={{ marginRight: 10, color:"white"}}>Welcome, {props.user.displayName}</div>
+            <img src={props.user.photoURL} alt="" style={{
+              height: 30,
+              width: 30,
+              borderRadius: '50%',
+              marginRight: 10
+             }}
+              />     
+              <div
+                onClick={logout}
+                style={{
+                  cursor: 'pointer',
+                  marginRight: 10,
+                  color:'white'
+                }}>
+                Logout
+              </div>
+            </>
+            :
+            <div
+              onClick={login}
+              style={{
+                cursor: 'pointer',
+                marginRight: 10,
+                color:"white"
+              }}>
+              Login
+            </div>
+        }
+      </div>
+ </Container>
+ </Navbar>
 
-    <Navbar expand="lg" variant="dark" bg="dark">
-      <Container>
-        <Navbar.Brand href="/">DopaList</Navbar.Brand>
-      </Container>
-    </Navbar>
-
-  );
+);
 }
 
 export default Header;
