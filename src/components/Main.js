@@ -7,8 +7,7 @@ import Home from "../pages/Home";
 function Main(props) {
     const [todo, setTodo] = useState(null);
 
-    const URL = "http://localhost:4000/todo/";
-
+    const URL = "https://dopa-list.herokuapp.com/"
 
     const getTodo = async (uid) => {
         const url = uid ? URL + '?uid=' + uid : URL
