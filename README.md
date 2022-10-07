@@ -51,6 +51,7 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Website will be responsive.
 * Users will be able to add event to their calendar.
 * Users will be able to get alerts on their calendar.
+* Users will be able type notes into the agenda on the calendar.
 
 ## Works Cited:
 (https://firebase.google.com/docs/web/setup?authuser=0)
