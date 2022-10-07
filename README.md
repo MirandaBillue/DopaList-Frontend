@@ -13,6 +13,8 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 
 
 ## Technologies Used:
+* JavaScript
+* Sass
 * HTML5
 * CSS
 * ReactJS
