@@ -4,12 +4,12 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 ## Table of Contents
 * [[Technologies Used]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#technologies-used)
 * [[Features]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#features)
-* [[Screenshots](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#scree)]
-* [Trello https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#trello-planningPlanning]
-* [Wirehttps://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#wireframeFrame]
-* [Gettinhttps://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#getting-startedg Started]
-* [Next https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#next-stepsSteps]
-* [Works https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#works-citedCited](
+* [[Screenshots]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#scree)
+* [[Trello]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#trello-planningPlanning)
+* [[Wireframe]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#wireframeFrame)
+* [[Getting Started]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#getting-startedg Started)
+* [[Next]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#next-stepsSteps)
+* [[Works]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#works-citedCited)
 
 
 ## Technologies Used:
@@ -30,8 +30,9 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Users can login and add tasks to their list.
 * Users can delete tasks from their list.
 
-## Screenshots![Screen Shot 2022-10-07 at 4 10 05 AM](https://user-images.githubusercontent.com/110904846/194530745-679a7561-1e9f-4394-a83d-0adf9d0dd612.png)
+## Screenshots
 ![Screen Shot 2022-10-06 at 5 14 38 PM](https://user-images.githubusercontent.com/110904846/194530706-7d9ece1e-0cf7-4e0e-aab7-3de40c6f0f4f.png)
+![Screen Shot 2022-10-07 at 4 10 05 AM](https://user-images.githubusercontent.com/110904846/194530745-679a7561-1e9f-4394-a83d-0adf9d0dd612.png)
 ![Screen Shot 2022-10-07 at 4 09 41 AM](https://user-images.githubusercontent.com/110904846/194530770-33df94f0-3cf7-4cd4-8e65-493efb2f0c15.png)
 
 
@@ -41,8 +42,8 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 !(https://file%2B.vscode-resource.vscode-cdn.net/Users/mj/Desktop/Screen%20Shot%202022-10-07%20at%205.33.55%20AM.png?version%3D1665135587628)
 
 ## Getting Started
-![](https://main--kaleidoscopic-longma-f15005.netlify.app/)
-![](https://dopa-list.herokuapp.com/)
+!(https://main--kaleidoscopic-longma-f15005.netlify.app/)
+!(https://dopa-list.herokuapp.com/)
 
 ## Next Steps
 * Website will be responsive.
@@ -50,10 +51,10 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Users will be able to get alerts on their calendar.
 
 ## Works Cited:
-![](https://firebase.google.com/docs/web/setup?authuser=0)
-![](https://jasonwatmore.com/post/2022/06/22/react-access-environment-variables-from-dotenv-env)
-![](https://www.anycodings.com/1questions/2495991/use-multiple-components-on-one-react-page)
-![](https://www.npmjs.com/package/react-calendar)
+!(https://firebase.google.com/docs/web/setup?authuser=0)
+!(https://jasonwatmore.com/post/2022/06/22/react-access-environment-variables-from-dotenv-env)
+!(https://www.anycodings.com/1questions/2495991/use-multiple-components-on-one-react-page)
+!(https://www.npmjs.com/package/react-calendar)
 * Stack Overflow
 * MDN
 * GitHub pages
