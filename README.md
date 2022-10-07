@@ -22,6 +22,7 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Netlify
 * Bootstrap
 * Heroku
+* Firebase
 
 ## Features
 * Users can view their calendar.
