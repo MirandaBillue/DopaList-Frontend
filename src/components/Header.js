@@ -11,6 +11,9 @@ function Header(props) {
         <Link to="/todo">
           <div style={{ color: 'white' }}>Todo Lists</div>
         </Link>
+        <Link to="/about">
+          <div style={{ color: 'white' }}>About DopaList</div>
+        </Link>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {
             props.user ?

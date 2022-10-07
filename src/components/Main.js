@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react";
-import { Route, Switch, Redirect } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import Index from "../pages/Index"
 import Home from "../pages/Home";
+import About from "../pages/About"
+import Task from "../pages/Task";
 
 
 function Main(props) {
     const [todo, setTodo] = useState(null);
 
-    const URL = "https://dopa-list.herokuapp.com/"
+    const URL = "http://localhost:4000/todo/";
+
 
     const getTodo = async (uid) => {
         const url = uid ? URL + '?uid=' + uid : URL
@@ -73,30 +76,32 @@ function Main(props) {
                 <Route exact path="/">
                     <Home />
                 </Route>
+                <Route path="/about">
+                    <About />
+                </Route>   
+                <Route path="/todo">
+                    <Index 
+                    todo={todo} 
+                    createTodo={createTodo}
+                    deleteTodo={deleteTodo} 
+                    />
+                </Route>
                 <Route
-                    path="/todo"
+                    path="/todo/:id"
                     render={(rp) => {
-                        if (!props.user) { //firebase user
-                            //show a modal or some alert
-                            alert("Sorry! You must be Logged in for That")
-                            return <Redirect to="/" />
-                        } else {
-                            return (
-                                <Index
-                                    todo={todo}
-                                    createTodo={createTodo}
-                                    updateTodo={updateTodo}
-                                    deleteTodo={deleteTodo}
-                                    {...rp}
-                                />
-                            );
-                        }
+                        return (
+                            <Task
+                            todo={todo}
+                                updateTodo={updateTodo}
+                                deleteTodo={deleteTodo}
+                                {...rp}
+                            />
+                        )
                     }}
-                />
+                />          
             </Switch>
         </main>
     );
-
 }
 
 export default Main;

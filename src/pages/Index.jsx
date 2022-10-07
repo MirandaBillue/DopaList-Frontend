@@ -1,9 +1,7 @@
 import { useState } from "react";
-import Calendar from 'react-calendar'
-import 'react-calendar/dist/Calendar.css'
 
 
-function Index(props) {
+function Index (props) {
   const [ newForm, setNewForm ] = useState({
     name: "",
   });
@@ -14,25 +12,30 @@ function Index(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     props.createTodo(newForm);
     setNewForm({
       name: "",
     });
   };
-  
+
+  const removeTodo = (todos) => {
+    props.deleteTodo(todos._id);
+  }
+
 const loaded = () => {
     return props.todo.map((todos) => (
-      <div key={todos._id} className="todos"><ul>
-        <li className="todolist">{todos.name}</li>
-        <button key={todos.id} onClick={()=> this.props.removeTodos(todos._id)}>x</button>
-        </ul>  
+      <div key={todos._id} className="todos">
+       <li className="todolist">{todos.name}</li>
+       <button 
+       onClick={()=> 
+       {removeTodo(todos)}}
+        >Completed</button>
       </div>
     ));
   };
 
   const loading = () => {
-    return <h1>Looking for Lists...</h1>;
+    return <h1>Loading...</h1>;
   };
 
 
@@ -53,11 +56,10 @@ const loaded = () => {
       </form> 
       {props.todo ? loaded() : loading()}     
       </div>
-      
-      <Calendar />
     </section>
   );
 }
 
 
 export default Index;
+
