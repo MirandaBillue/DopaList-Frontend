@@ -29,7 +29,10 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Users can login and add tasks to their list.
 * Users can delete tasks from their list.
 
-## Screenshots
+## Scree![Screen Shot 2022-10-07 at 4 10 05 AM](https://user-images.githubusercontent.com/110904846/194530745-679a7561-1e9f-4394-a83d-0adf9d0dd612.png)
+![Screen Shot 2022-10-06 at 5 14 38 PM](https://user-images.githubusercontent.com/110904846/194530706-7d9ece1e-0cf7-4e0e-aab7-3de40c6f0f4f.png)
+nshots![Screen Shot 2022-10-07 at 4 09 41 AM](https://user-images.githubusercontent.com/110904846/194530770-33df94f0-3cf7-4cd4-8e65-493efb2f0c15.png)
+
 
 ## Trello Planning
 ![](https://trello.com/invite/b/PDt4eEXQ/b09b9ee7ee394efdf9cf4a219f7ce33c/project3)
