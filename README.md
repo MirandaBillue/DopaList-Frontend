@@ -1,5 +1,5 @@
 # DopaList
-I personally have ADHD and I dislike the side effects of the medication, so after reading about alternatives I discoved that simple todo lists were a way to help people with ADD/ADHD focus more, and remember tasks.  So, I created DopaList to give other people with ADHD a shot of dopamine when they complete a task.
+I personally have ADHD and I dislike the side effects of the medication, so after reading about alternatives I discovered that simple todo lists were a way to help people with ADD/ADHD focus more, and remember tasks.  So, I created DopaList to give other people with ADHD a shot of dopamine when they complete a task.
 
 ## Table of Contents
 * [[Technologies Used]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#technologies-used)
