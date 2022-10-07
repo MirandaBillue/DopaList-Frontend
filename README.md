@@ -5,11 +5,11 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * [[Technologies Used]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#technologies-used)
 * [[Features]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#features)
 * [[Screenshots]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#scree)
-* [[Trello]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#trello-planningPlanning)
+* [[Trello Planning]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#trello-planning)
 * [[Wireframe]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#wireframeFrame)
-* [[Getting Started]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#getting-startedg Started)
-* [[Next]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#next-stepsSteps)
-* [[Works]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#works-citedCited)
+* [[Getting Started]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#getting-started)
+* [[Next Steps]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#next-steps)
+* [[Works Cited]](https://github.com/MirandaBillue/DopaList-Frontend/blob/main/README.md#works-cited)
 
 
 ## Technologies Used:
@@ -37,13 +37,13 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 
 
 ## Trello Planning
-!(https://trello.com/invite/b/PDt4eEXQ/b09b9ee7ee394efdf9cf4a219f7ce33c/project3)
+(https://trello.com/invite/b/PDt4eEXQ/b09b9ee7ee394efdf9cf4a219f7ce33c/project3)
 ## Wireframe
-!(https://file%2B.vscode-resource.vscode-cdn.net/Users/mj/Desktop/Screen%20Shot%202022-10-07%20at%205.33.55%20AM.png?version%3D1665135587628)
+(https://file%2B.vscode-resource.vscode-cdn.net/Users/mj/Desktop/Screen%20Shot%202022-10-07%20at%205.33.55%20AM.png?version%3D1665135587628)
 
 ## Getting Started
-!(https://main--kaleidoscopic-longma-f15005.netlify.app/)
-!(https://dopa-list.herokuapp.com/)
+(https://main--kaleidoscopic-longma-f15005.netlify.app/)
+(https://dopa-list.herokuapp.com/)
 
 ## Next Steps
 * Website will be responsive.
@@ -51,10 +51,10 @@ I personally have ADHD and I dislike the side effects of the medication, so afte
 * Users will be able to get alerts on their calendar.
 
 ## Works Cited:
-!(https://firebase.google.com/docs/web/setup?authuser=0)
-!(https://jasonwatmore.com/post/2022/06/22/react-access-environment-variables-from-dotenv-env)
-!(https://www.anycodings.com/1questions/2495991/use-multiple-components-on-one-react-page)
-!(https://www.npmjs.com/package/react-calendar)
+(https://firebase.google.com/docs/web/setup?authuser=0)
+(https://jasonwatmore.com/post/2022/06/22/react-access-environment-variables-from-dotenv-env)
+(https://www.anycodings.com/1questions/2495991/use-multiple-components-on-one-react-page)
+(https://www.npmjs.com/package/react-calendar)
 * Stack Overflow
 * MDN
 * GitHub pages
