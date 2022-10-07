@@ -8,11 +8,14 @@ function Header(props) {
     <Navbar expand="lg" variant="dark" bg="dark">
       <Container>
         <Navbar.Brand href="/">DopaList</Navbar.Brand>
+        <Link to="/about">
+          <div style={{ color: 'white' }}>About DopaList</div>
+        </Link>
         <Link to="/todo">
           <div style={{ color: 'white' }}>Todo Lists</div>
         </Link>
-        <Link to="/about">
-          <div style={{ color: 'white' }}>About DopaList</div>
+        <Link to="/calendar">
+          <div style={{ color: 'white' }}>Calendar</div>
         </Link>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {

@@ -4,12 +4,13 @@ import Index from "../pages/Index"
 import Home from "../pages/Home";
 import About from "../pages/About"
 import Task from "../pages/Task";
-
+import MyCalendar from "../pages/Calendar";
 
 function Main(props) {
     const [todo, setTodo] = useState(null);
 
-    const URL = "http://localhost:4000/todo/";
+    // const URL = "http://localhost:4000/todo/";
+    const URL = "https://dopa-list.herokuapp.com/";
 
 
     const getTodo = async (uid) => {
@@ -98,7 +99,10 @@ function Main(props) {
                             />
                         )
                     }}
-                />          
+                />
+                <Route path="/calendar">
+                    <MyCalendar />
+                    </Route>          
             </Switch>
         </main>
     );
